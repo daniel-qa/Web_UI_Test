@@ -8,5 +8,5 @@ driver = webdriver.Firefox()
 url='http://www.google.com.tw'
 driver.get(url)
 
-# check element
-driver.find_element_by_xpath(" xxxx").is_displayed() 
+# Check Context txt
+driver.find_element_by_xpath("//*[contains(text(), '台灣')]").is_displayed()
