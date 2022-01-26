@@ -10,3 +10,7 @@ xpath=//article[@id='tbaplayer']//button[2]/span/i[contains(@class,'ivu-icon-ios
    一般要先抓到最前面的特定 ID ，中間再用 //, 最後選用特定 DOM 的特徵(ID,Attribute.... )
    這樣可以比較容易定址到元件，也比較不容易發生因為UI變更產生的定址錯誤的狀況
    
+# katalon recorder 的xpath元件計數，由1開始
+  沒有指定，則預設抓取第一個
+  若有多個，則必須指定位置 element[N]
+  否則會抓不到 DOM 
