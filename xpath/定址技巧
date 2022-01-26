@@ -1,0 +1,12 @@
+# Recorder 記錄的 
+xpath=//article[@id='tbaplayer']/section/div[2]/article/div[4]/div[2]/div/div/button[2]
+
+# 自己簡化並特製的
+--> 抓頭抓尾，去掉中間
+
+xpath=//article[@id='tbaplayer']//button[2]/span/i[contains(@class,'ivu-icon-ios-trash-outline')]
+
+--> xpath，中間也可以用 // 
+   一般要先抓到最前面的特定 ID ，中間再用 //, 最後選用特定 DOM 的特徵(ID,Attribute.... )
+   這樣可以比較容易定址到元件，也比較不容易發生因為UI變更產生的定址錯誤的狀況
+   
