@@ -50,26 +50,7 @@ if __name__== "__main__":
 	if(0):
 		product_url= 'http://product.company.com.tw'
 		product_lang = 'tw'
-	if(0):
-		product_url= 'http://product.company.com.cn'
-		product_lang = 'cn'
-		wait_time = 2 # 大陸等級時間較久
-	if(0):
-		product_url= 'http://product.class.com.tw'
-		product_lang = 'en'		
-	if(0):
-		product_url= 'http://192.168.1.228'
-		product_lang = 'tw'		
-	if(0):
-		product_url= 'http://192.168.0.200'
-		product_lang = 'tw'		
-	if(0):
-		product_url= 'http://222.175.100.115' # 山東歷下
-		product_lang = 'cn'		
-	if(0):
-		product_url= 'http://192.168.1.228:8080' # Product Release
-		product_lang = 'cn'
-
+	
 	print ies_url + '   lang: ' + ies_lang
 	
 	# Get Web Driver
